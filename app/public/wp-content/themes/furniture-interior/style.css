@@ -1,0 +1,578 @@
+/**
+Theme Name: Furniture Interior
+Theme URI: https://www.themescaliber.com/products/free-furniture-interior-wordpress-theme
+Author: ThemesCaliber
+Author URI: https://www.themescaliber.com/
+Version: 3.3.1
+Requires PHP: 7.2
+Requires at least: 5.0
+Tested up to: 6.5
+Template: interior-designs
+Text Domain: furniture-interior
+Description: Furniture Interior is a stunningly magnificent theme with a responsive layout that suits perfectly the needs of decoration businesses, architecture firms, furniture houses and home decor, sofa, dining table, interior designers, Multi-Family house. Built-in kitchens etc. It is also suitable for industries that are related to the manufacturing of interior designing materials, false ceiling makers, and relevant businesses. This professional and exceedingly stylish theme comprises excellent content spaces and sections and embraces a strong powerful Bootstrap-based design that makes it easily editable. With very little effort required on your part, you can easily customize the design with the help of the personalization options given in the intuitive theme options panel. Its use is not confined only to a single niche as you can easily modify it and use it as a multipurpose theme. Call To Action Button (CTA) makes it interactive and along with this, there are stunning CSS animations. The clean and secure codes make it quick to work and pages to load at lightning-fast speed. Social media icons are extremely useful for making your appearance on social media platforms as well. Along with that, you will find the testimonial section, team section, banner, and plenty of shortcodes included as a part of this theme. Demo: https://preview.themescaliber.com/interior-designs-pro/
+License: GNU General Public License v3.0 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-columns, grid-layout, block-styles, block-patterns, wide-blocks, custom-colors, custom-background, custom-logo, custom-menu, custom-header, editor-style, featured-images, footer-widgets, flexible-header, sticky-post, full-width-template, theme-options, threaded-comments, blog, photography, e-commerce
+
+Furniture Interior WordPress Theme is child theme of Interior Designs WordPress Theme, Copyright 2021 ThemesCaliber
+Furniture Interior is distributed under the terms of the GNU General Public License v3 or later
+
+Interior Designs WordPress Theme, Copyright 2021 ThemesCaliber
+Interior Designs is distributed under the terms of the GNU General Public License v3 or later
+*/
+
+a,.tags a, #sidebar .textwidget a,
+.entry-date:hover a, .entry-date:hover i{
+	color: #9759cf;
+}
+#wp-calendar td ,#wp-calendar th{
+	border:1px solid #40464d;
+}
+.top-header,
+.metabox,
+#sidebar input[type="submit"],
+.service-btn a,
+#sidebar th,
+.pagination .current,
+#sidebar .tagcloud a:hover,
+#footer,
+.pagination a:hover, 
+.page-links a:hover,
+.woocommerce a.button,
+.woocommerce #respond input#submit.alt, 
+.woocommerce a.button.alt, 
+.woocommerce button.button.alt, 
+.woocommerce input.button.alt,
+.woocommerce #respond input#submit, 
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce button.button:disabled, 
+.woocommerce button.button:disabled[disabled]:hover,
+li.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link,input[type="submit"],
+#comments input[type="submit"].submit,
+#comments a.comment-reply-link ,.wp-block-search__button,.wp-block-tag-cloud a:hover,.footertown input[type="submit"],.woocommerce-notices-wrapper a.button.wc-forward{
+    background: linear-gradient(to right, #6caaad , #9759cf);
+}
+.woocommerce a.button.yith-wcqv-button {
+    margin-top: 8px !important;
+}
+.metabox .entry-date a, .metabox{
+  color: #ffffff;
+}
+.metabox .entry-date a:hover,.metabox .entry-author a:hover{
+  color: #9759cf !important;
+}
+.metabox .entry-author i:hover,.woocommerce-MyAccount-content a, .woocommerce-info a, form.woocommerce-cart-form a{
+  color: #9759cf !important;
+}
+.metabox .entry-author a,.wp-block-search__button{
+  color: #ffffff;
+}
+.top-header a{
+	color:#ffffff;
+}
+.top-header a:hover{
+	color:#121212;
+}
+#footer p a,
+#footer p,
+.site-text span,
+.social-media i,
+.metabox .entry-author a,
+.metabox,
+.service-btn a,
+#sidebar th,
+#sidebar input[type="submit"],
+.service-btn a:hover,
+.pagination span, .pagination a,
+.pagination .current,
+.pagination a:hover, 
+.page-links a:hover,
+.footertown .tagcloud a,
+.footertown input[type="submit"],
+.footertown th,
+.primary-navigation a:hover,
+.woocommerce span.onsale,
+.woocommerce a.button,
+li.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link a,
+.toggle-menu i,
+.top-header p a,
+input[type="submit"],
+.metabox a,i
+.tags a:hover,
+#comments a.comment-reply-link,a:hover
+#comments a.comment-reply-link a:hover,i: hover{
+	
+}
+.woocommerce-product-search button[type="submit"]{
+	background: linear-gradient(to right, #6caaad , #9759cf);
+	color: #fff;
+}
+.primary-navigation ul ul a,
+.woocommerce a.button:hover,
+.woocommerce #respond input#submit.alt, 
+.woocommerce a.button.alt, 
+.woocommerce button.button.alt, 
+.woocommerce input.button.alt,
+.woocommerce #respond input#submit, 
+.woocommerce button.button, .woocommerce input.button,
+li.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link a{
+	color: #fff;
+}
+
+.services-box:hover .entry-date a:hover, 
+.services-box:hover .entry-date i:hover,
+#sidebar ul li a:hover,
+.scrollup,
+.footertown .widget h3,
+.footertown .tagcloud a:hover,
+.footertown .widget ul li a:hover, 
+.footertown h3.widget-title a,
+.comment-list li.comment p a,
+.textwidget a, .services-box:hover .entry-date a, .services-box:hover .entry-date i,.footertown .widget h2,.footertown .wp-block-search__label{
+	color: #9759cf;
+}
+.service-btn a:hover,.site-text span{
+	color: #fff;
+}
+.footertown th,
+.primary-navigation ul ul a,
+.primary-navigation a:hover,
+.woocommerce span.onsale,
+#slider .carousel-control-prev-icon:hover, 
+#slider .carousel-control-next-icon:hover,
+.toggle-menu,
+.tags a:hover,
+#comments a.comment-reply-link:hover{
+	background: #9759cf;
+}
+
+#sidebar h3,
+.services-box h2 a,
+#content-ma .services-box h3 a,
+#sidebar caption,
+.primary-navigation ul li a,
+.logo h1 a, .logo p a,
+.middle-align h1,
+h1.entry-title, 
+h1.product_title.entry-title, 
+#tab-description h2, 
+#reviews h2, h2#reply-title,
+.woocommerce div.product p.price, 
+.woocommerce div.product span.price{
+	color: #000;
+}
+
+.service-btn a:hover,.pagination span, .pagination a,
+.primary-navigation ul ul a:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce #respond input#submit.alt:hover, 
+.woocommerce a.button.alt:hover, 
+.woocommerce button.button.alt:hover, 
+.woocommerce input.button.alt:hover{
+	background: #000;
+}
+
+.services-box:hover,
+.footertown .tagcloud a:hover,
+.footertown input.search-field,
+.serach_inner form.search-form,
+.tags a{
+	border-color: #9759cf;
+}
+
+.footertown input.search-field {
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.fixed-header{
+	background: #fff;
+}
+
+.footertown{
+	background: #222222;
+}
+
+.footertown form.search-form label{
+  width: 100%;
+}
+
+.serach_inner form.search-form {
+    box-shadow: none;
+}
+
+.search-box{
+	background: transparent;
+}
+
+.search-box i{
+	font-size: 15px;
+	padding: 0;
+}
+
+.full-header{
+	border: none;
+}
+
+.page-template-custom-frontpage #header {
+    position: static;
+    margin-top: 0;
+}
+
+.slider-content {
+    position: absolute;
+    left: 35%;
+    right: 35%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.slider-content h2 a {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 800;
+}
+
+#slider .carousel-control-prev-icon, #slider .carousel-control-next-icon {
+    padding: 15px 20px;
+    transform: none;
+    background: #000;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.disc-btn a{
+	background-color: #9759cf;
+	color: #fff;
+	text-align: center;
+}
+.disc-btn a:hover{
+	background-color: #000;
+	color: #fff;
+}
+
+#contact-information {
+    text-align: center;
+}
+
+.contact-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 3px #eeee;
+}
+
+.contact-outer-box {
+    margin: -5em 10em 0;
+    position: relative;
+}
+
+.contact-box i {
+    font-size: 40px;
+    background: -webkit-linear-gradient(#6caaad, #9759cf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p.infotext{
+	font-size: 15px;
+}
+
+.project-box {
+    background: #000;
+    border-radius: 10px;
+}
+
+.project-box img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.project-box h3 a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.project-box-inner {
+    background: #fff;
+    padding: 25px;
+    height: auto;
+    outline: 3px solid #9759cf;
+    outline-offset: -15px;
+    position: relative;
+    left: -70px;
+}
+
+.form-submit input[type="submit"]{
+   color: #ffffff;
+}
+.services-box .service-btn a{
+   color: #ffffff;
+}
+#sidebar input[type="submit"]{
+	color: #ffffff;
+}
+.woocommerce form.login .form-row input.input-text {
+    width: 100%;
+}
+.woocommerce span.onsale{
+	color: #ffffff;
+}
+.woocommerce a.button{
+	color: #ffffff;
+}
+.woocommerce-MyAccount-content a.woocommerce-Button.button{
+	color: #fff !important;
+}
+.button.woocommerce-button.button.woocommerce-form-login__submit{
+	color: #fff !important;
+}
+.woocommerce-MyAccount-content button.woocommerce-Button.button{
+	color: #fff !important;
+}
+.comment-form-url input {
+	 border: 1px solid #bcbcbc;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 100%;
+    padding: 15px;
+}
+
+.social-media a i{
+	color: #fff;
+}
+.social-media a i:hover{
+	color: #121212 !important;
+}
+.coupon .button.button{
+   color: #fff !important;
+}
+
+.footertown input[type="submit"]{
+    width: 30%;
+    margin-bottom: 20px;
+	color: #fff !important;
+}
+.footertown input.search-submit{
+	width: 100%;
+	
+}
+#comments input[type="submit"].submit:hover {
+    color: #fff;
+    background: #000;
+}
+#comments a.comment-reply-link:hover {
+    color: #fff;
+    background-color: #000 !important;
+}
+/*blog page*/
+.services-box .tc-category a {
+    background: linear-gradient(to right, #6caaad , #9759cf);
+    color: #ffffff;
+    font-weight: 300 !important;
+}
+.services-box .tc-category a:hover{
+    background: #000;
+    color: #fff;
+}
+.metabox .me-2:before{
+    background-color: #8f67c9;  
+}
+.metabox a:hover, i:hover, .services-box .entry-date:hover a, .services-box .entry-date:hover i, .services-box .entry-author:hover a, .services-box .entry-author:hover i, .services-box .entry-comments:hover i {
+    color: #9759cf !important;
+}
+.services-box .metabox a,.services-box .metabox i{
+  color: #000;
+}
+.woocommerce a.button:hover {
+    color: #fff !important;
+}
+.tc-single-category a {
+    background: linear-gradient(to right, #6caaad , #9759cf);
+    color: #fff;
+}
+.tc-single-category a:hover{
+    background: #000;
+    color: #fff;
+}
+.primary-navigation ul ul a:hover {
+    color: #fff;
+    background: #000;
+}
+.bradcrumbs a,.bradcrumbs span{
+	background: linear-gradient(to right, #6caaad , #9759cf);
+    color: #fff;
+}
+.bradcrumbs a:hover{
+	background: #000;
+    color: #fff;
+}
+.post-categories a{
+	background: linear-gradient(to right, #6caaad , #9759cf);
+    color: #fff;
+}
+.post-categories a:hover{
+	background: #000;
+    color: #fff;
+}
+.toggle-menu i:hover{
+	color: unset !important;
+}
+.wp-block-button a{
+	background: linear-gradient(to right, #6caaad , #9759cf);
+	color: #fff !important;
+}
+#main .wp-block-button a:hover{
+	border:none;
+}
+span.post-page-numbers.current{
+	padding: 10px 15px !important;
+}
+.pagination a:hover, .page-links a:hover,.tags a:hover  {
+  color: #fff !important;
+  background: linear-gradient(to right, #6caaad , #9759cf) !important; /* Pagination background on hover */
+} 
+.pagination .current, .page-links .current{
+  background: linear-gradient(to right, #6caaad , #9759cf) !important; /* Current page background */
+  color: #fff !important;
+}
+.pagination a,.pagination span{
+	color: #fff;
+}
+#sidebar h3, #sidebar h2, #sidebar .wp-block-search__label,.footertown .wp-block-search__label,.footertown .widget h2,.footertown .widget h3{
+	border-bottom: 2px double #9759cf;
+}
+.footertown .wp-block-tag-cloud a:hover,#sidebar .tagcloud a:hover,.footertown .tagcloud a:hover{
+	background: linear-gradient(to right, #6caaad , #9759cf) !important;
+}
+.wp-block-tag-cloud a:hover,.footertown .wp-block-tag-cloud a:hover,.footertown .tagcloud a:hover,#sidebar .tagcloud a:hover{
+	border: 1px solid #9759cf;
+	color: #000;
+}
+#main .wp-block-button a:hover{
+	background: #000 !important;
+    color: #fff;
+    border: 1px solid #000;
+}
+#main .is-style-outline a:hover {
+    color: #000 !important;
+    background: transparent !important;
+    border: 2px solid #000;
+}
+#respond{
+	margin-top: 20px;
+}
+a.wc-block-components-totals-coupon-link, a.components-button.wc-block-components-button.wp-element-button.wc-block-cart__submit-button.contained, a.wc-block-components-checkout-return-to-cart-button, 
+.wc-block-components-totals-coupon__button.contained, button.wc-block-components-checkout-place-order-button
+{
+	background: linear-gradient(to right, #6caaad , #9759cf);
+}
+button.wc-block-components-checkout-place-order-button:hover, a.wc-block-components-totals-coupon-link:hover, a.components-button.wc-block-components-button.wp-element-button.wc-block-cart__submit-button.contained:hover, a.wc-block-components-checkout-return-to-cart-button:hover{
+	background-color: #000 !important;
+}
+.wc-block-grid__product-onsale{
+	border:none !important ;
+	background: linear-gradient(to right, #6caaad , #9759cf) !important;
+	color: #fff !important;
+}
+a.added_to_cart.wc-forward{
+	background: linear-gradient(to right, #6caaad , #9759cf);
+	color: #fff;
+}
+.woocommerce-notices-wrapper a.button.wc-forward{
+	padding: 10px 15px !important;
+	opacity: 1;
+	text-decoration: none;
+}
+.woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce nav.woocommerce-pagination ul li span.current{
+	background: #9759cf;
+	border-color: #9759cf;
+}
+@media screen and (min-width: 320px) and (max-width: 767px){
+	.slider-content {
+	    left: 10%;
+	    right: 10%;
+	}
+	.slider-content h2 a{
+		font-size: 20px;
+		line-height: 1;
+	}
+	.slider-content h2{
+		padding: 5px 0;
+	}
+	.contact-outer-box{
+		margin: 0;
+		position: static;
+	}
+	.contact-box,
+	.project-box {
+    	margin-bottom: 20px;
+	}
+	.contact-box {
+       margin: 5px;
+    }
+	.project-box-inner {
+	    position: static;
+	}
+	#slider .carousel-control-prev-icon, #slider .carousel-control-next-icon {
+		padding: 10px 13px;
+	}
+	.disc-btn{
+	margin-top: 0.5rem !important;
+	margin-bottom: 1rem !important;
+	}
+
+}
+@media screen and (min-width: 320px) and (max-width: 768px){
+	.scrollup{
+		font-size: 15px;
+		right: 0px;
+	}
+	.carousel-control-prev{
+		left: 10px;
+	}
+	.carousel-control-next{
+		right: 10px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 999px){
+	.slider-content {
+	    left: 25%;
+	    right: 25%;
+	}
+	.contact-outer-box {
+	    margin: -3em 0em 0;
+	}
+	.project-box-inner {
+	    position: static;
+	}
+	.disc-btn{
+	margin-top: 1rem !important;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	.toggle-menu button{
+		color: #fff;
+	}
+	.side-menu{
+		background: #9759cf;
+	}
+	.primary-navigation ul li a,.side-menu .closebtn{
+		color: #fff;
+	}
+	.toggle-menu i{
+		color: #fff;
+	}
+}
+@media screen and (min-width: 1000px) and (max-width: 1028px){
+	.slider-content{
+		left: 30%;
+		right: 30%;
+	}
+}

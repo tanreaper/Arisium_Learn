@@ -1,0 +1,305 @@
+/*
+Theme Name: Eclipsion
+Theme URI: https://effethemes.com/themes/eclipsion-wordpress-theme/
+Author: Effe Themes
+Author URI: https://effethemes.com/
+Description: Eclipsion is a dynamic and versatile multipurpose WordPress theme designed to meet the needs of modern businesses. Whether you are a corporate firm, creative agency, freelancer, or online store, Eclipsion provides a robust platform to showcase your brand with style and professionalism. This theme boasts a sleek, dark design that is both minimalistic and powerful, perfect for creating a lasting impression. Eclipsion features a user-friendly block-based design, making it easy to customize and build your site with precision. Designed with versatility in mind, Eclipsion is ideal for a wide range of niches including landing pages, music production studios, photography, travel, bloggers, vloggers, digital marketing agencies, online courses, and magazines. Its modern aesthetics and flexible layout options make it suitable for any industry, providing a seamless and engaging user experience. Compatible with Elementor, Gutenberg, Yoast SEO, RankMath, Contact Form, Jetpack, WooCommerce, and more, Eclipsion ensures you can create an engaging online store or use advanced page building capabilities with ease. Its responsive design guarantees your website looks flawless on all devices, from desktops to mobile phones. With Eclipsion, building a professional, visually stunning website has never been easier.
+Requires at least: 6.0
+Tested up to: 6.6
+Requires PHP: 5.7
+Version: 1.1.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: eclipsion
+Tags: blog, entertainment, portfolio, one-column, two-columns, block-patterns, block-styles, custom-colors, custom-header, custom-logo, editor-style, featured-image-header, featured-images, footer-widgets, full-site-editing, full-width-template, style-variations, template-editing, threaded-comments, translation-ready, wide-blocks
+*/
+
+/* ================= > General Styles < ================= */
+
+html,body {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--wp--preset--color--custom-background-primary);
+  color: var(--wp--preset--color--custom-text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+a {
+  color: inherit;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul > li > a {
+  text-decoration: none;
+}
+
+:where(.wp-site-blocks) > * {
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+}
+
+/* ================= > Header < ================= */
+
+.wp-block-site-title > a {
+  text-decoration: none;
+}
+
+.wp-block-navigation__responsive-container-content {
+  -webkit-box-align: start !important;
+      -ms-flex-align: start !important;
+          align-items: start !important;
+}
+
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
+  border: 0 !important;
+}
+
+.wp-block-navigation-submenu > li {
+  background: var(--wp--preset--color--custom-background-secondary) !important;
+  color: var(--wp--preset--color--custom-text-color);
+}
+
+/* ================= > Blog < ================= */
+
+.wp-block-button__link {
+  background: var(--wp--preset--color--custom-primary);
+}
+
+input,
+textarea {
+  background: var(--wp--preset--color--custom-background-secondary);
+  color: #fff !important;
+}
+
+.wp-block-comment-content {
+  background: var(--wp--preset--color--custom-background-secondary) !important;
+}
+
+/* ================= > Footer < ================= */
+
+.copy > a {
+  text-decoration: none;
+}
+
+/* ================= > WooCommerce < ================= */
+
+.orderby {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.wp-block-query-pagination-numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.woocommerce-product-gallery__image,
+.attachment-woocommerce_thumbnail,
+.size-woocommerce_thumbnail,
+.wc-block-grid__product-image > a > img {
+  /* border-radius: 10px; */
+}
+
+.woocommerce-product-gallery__image:hover,
+.attachment-woocommerce_thumbnail:hover,
+.size-woocommerce_thumbnail:hover,
+.wc-block-grid__product-image > a > img:hover,
+.wc-block-cart-item__image > a > img:hover,
+.wp-block-cart-cross-sells-product__product-image > a > img:hover {
+  opacity: 0.8;
+}
+
+.single_add_to_cart_button,
+.add_to_cart_button,
+.product_type_external,
+.ajax_add_to_cart,
+.wp-block-woocommerce-mini-cart-checkout-button-block,
+.wc-block-components-product-button__button,
+.wc-block-cart__submit-button,
+.wc-block-components-checkout-place-order-button,
+.wc-block-components-totals-coupon__button {
+  background: var(--wp--preset--color--custom-primary);
+  border-radius: 25px 25px 0 0;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.wp-block-woocommerce-mini-cart-cart-button-block {
+  border-radius: 25px;
+}
+
+.wp-block-woocommerce-mini-cart-shopping-button-block {
+  background: var(--wp--preset--color--custom-primary);
+}
+
+.components-form-token-field__suggestion:hover {
+  background: var(--wp--preset--color--custom-primary) !important;
+}
+
+.single_add_to_cart_button:hover,
+.add_to_cart_button:hover,
+.product_type_external:hover,
+.ajax_add_to_cart:hover,
+.wp-block-woocommerce-mini-cart-checkout-button-block:hover,
+.wp-block-woocommerce-mini-cart-shopping-button-block:hover,
+.wc-block-components-product-button__button:hover,
+.wc-block-cart__submit-button:hover,
+.wc-block-components-checkout-place-order-button:hover,
+.wc-block-components-totals-coupon__button:hover {
+  color: #333 !important;
+  background: #fff !important;
+}
+
+.qty {
+  border: 0;
+}
+
+.wc-block-components-form .wc-block-components-text-input label, .wc-block-components-text-input label {
+  color: #ffffff8a !important
+}
+
+.wc-block-components-checkbox .wc-block-components-checkbox__mark {
+  background: #fff !important;
+}
+
+.woocommerce-account .wp-block-post-title, .woocommerce-account main .woocommerce, .woocommerce-cart .wp-block-post-title, .woocommerce-cart main .woocommerce, .woocommerce-checkout .wp-block-post-title, .woocommerce-checkout main .woocommerce {
+  /* display: flex; */
+  max-width: none !important;
+}
+
+/* My Account */
+.woocommerce-MyAccount-content {
+  padding: 20px;
+  background: var(--wp--preset--color--custom-background-secondary);
+  border-radius: 10px;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation {
+  width: 25%;
+}
+
+.woocommerce-MyAccount-content h2 {
+  color: var(--wp--preset--color--custom-primary);
+  margin-bottom: 10px;
+}
+
+.woocommerce-MyAccount-navigation a,
+.woocommerce-Button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 20px;
+  border: 2px solid var(--wp--preset--color--custom-primary);
+  border-radius: 5px;
+  text-decoration: none;
+  -webkit-transition: background-color 0.3s, color 0.3s;
+  -o-transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.woocommerce-MyAccount-navigation a::before,
+.woocommerce-Button::before {
+  font-family: 'Material Icons';
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.woocommerce-MyAccount-navigation-link--dashboard a::before { content: 'dashboard'; }
+.woocommerce-MyAccount-navigation-link--orders a::before { content: 'shopping_cart'; }
+.woocommerce-MyAccount-navigation-link--downloads a::before { content: 'cloud_download'; }
+.woocommerce-MyAccount-navigation-link--edit-address a::before { content: 'home'; }
+.woocommerce-MyAccount-navigation-link--edit-account a::before { content: 'account_circle'; }
+.woocommerce-MyAccount-navigation-link--customer-logout a::before { content: 'exit_to_app'; }
+
+.woocommerce-MyAccount-navigation a:hover,
+.woocommerce-Button:hover {
+  background-color: var(--wp--preset--color--custom-background-secondary);
+  color: #fff;
+}
+
+.woocommerce-MyAccount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.woocommerce-MyAccount-navigation {
+  width: 20%;
+}
+
+.woocommerce-MyAccount-content {
+  width: 75%;
+}
+
+/* ================= > Media Queries < ================= */
+
+@media (max-width: 1024px) {
+  .wp-block-columns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) .wp-block-navigation__responsive-container-close,
+  .wp-block-navigation__responsive-container-open:not(.always-shown),
+  .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+    display: none;
+  }
+
+  .wp-block-navigation__responsive-container-open:not(.always-shown) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .wp-block-navigation__container {
+    --navigation-layout-justification-setting: flex-start !important;
+    --navigation-layout-justify: flex-start !important;
+  }
+
+  #adaptive-cursor {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-buttons,
+  .footer-columns {
+    place-items: flex-start !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}

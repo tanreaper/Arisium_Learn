@@ -1,0 +1,44 @@
+.furniture-interior-banner-section h2,.furniture-interior-project-section h2,.furniture-interior-learn-more-section1.paragraph-1 p{
+    font-family: 'Ubuntu', sans-serif !important;
+}
+/*furniture-interior-banner-section*/
+.furniture-interior-banner-section h2 {
+    font-weight: 800;
+    letter-spacing: 0px;
+}
+.furniture-interior-banner-section {
+    position: relative;
+}
+.furniture-interior-shipping-section{
+    padding: 15px 0px 5px 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 3px #eeee;
+}
+.furniture-interior-learn-more-section1 {
+    margin-top: -8% !important;
+    position: relative;
+    z-index: 9;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.furniture-interior-shipping-section p.paragraph-1 {
+    font-weight: bold;
+}
+.furniture-interior-project-section h3{
+    margin-top: -32px;
+}
+.furniture-interior-project-section h3{
+    margin-top: -32px;
+    border-radius: 0px 0px 15px 15px;
+}
+.furniture-interior-project-section-columns {
+    background: #fff;
+    padding: 25px;
+    height: auto;
+    outline: 3px solid #9759cf;
+    outline-offset: -15px;
+    position: relative;
+    left: -70px;
+}
+/*furniture-interior-aboutus-section*/
+

@@ -1,0 +1,54 @@
+.themescaliber-themeinfo .upsell-pro-label {
+	background: #9759cf !important;
+}
+.themescaliber-themeinfo .button {
+	background: #9759cf !important;
+}
+
+/*Furniture Interior css*/
+#customize-control-furniture_interior_demo_link span a,
+#customize-control-furniture_interior_doc_link span a,
+#customize-control-furniture_interior_forum_link span a,
+#customize-control-furniture_interior_menu_settings_premium_features a,
+#customize-control-furniture_interior_post_settings_premium_features a  {
+  display: inline-block;
+  background-color: #9759cf;
+  color: #fff;
+  text-decoration: none;
+  font-weight:  600;
+  text-transform: capitalize;
+  font-size: 14px;
+  padding: 7px 15px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+#customize-control-furniture_interior_demo_link span a:hover,
+#customize-control-furniture_interior_doc_link span a:hover,
+#customize-control-furniture_interior_forum_link span a:hover {
+  background-color: #000;
+}
+#customize-control-furniture_interior_demo_link span,
+#customize-control-furniture_interior_doc_link span,
+#customize-control-furniture_interior_forum_link span,
+#customize-control-furniture_interior_menu_settings_premium_features span,
+#customize-control-furniture_interior_post_settings_premium_features span{
+  border: 1px solid grey;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+#customize-control-furniture_interior_demo_link h3,
+#customize-control-furniture_interior_doc_link h3,
+#customize-control-furniture_interior_forum_link h3{
+  margin: 0px 0px 10px 0px;
+}
+#accordion-section-furniture_interior_about_theme .accordion-section-title{
+  background-color: #9759cf;
+  color: #fff;
+}
+#customize-control-furniture_interior_menu_settings_premium_features li,
+#customize-control-furniture_interior_post_settings_premium_features li{
+	list-style-type: disc;
+	margin-left: 20px;
+}

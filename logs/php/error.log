@@ -1,0 +1,15 @@
+[19-Apr-2024 00:12:56 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "myFirstFunction" in /Users/ohm/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php:5
+Stack trace:
+#0 /Users/ohm/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/ohm/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/ohm/Loca...')
+#2 /Users/ohm/Local Sites/fictional-university/app/public/index.php(17): require('/Users/ohm/Loca...')
+#3 {main}
+  thrown in /Users/ohm/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 5
+[19-Apr-2024 00:14:28 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /Users/ohm/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 4
+[19-Apr-2024 00:15:00 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /Users/ohm/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 4
+[19-Apr-2024 00:15:03 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /Users/ohm/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 4
+[19-Apr-2024 00:18:54 UTC] PHP Parse error:  syntax error, unexpected identifier "Paul" in /Users/ohm/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 5
+[19-Apr-2024 00:19:13 UTC] PHP Parse error:  Unclosed '{' on line 2 in /Users/ohm/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 6
+[19-Apr-2024 00:21:20 UTC] PHP Parse error:  syntax error, unexpected identifier "greet" in /Users/ohm/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 6
+[19-Apr-2024 01:00:27 UTC] Cron unschedule event error for hook: do_pings, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":false,"args":[]}
+[13-Jul-2024 17:01:39 UTC] PHP Warning:  Undefined property: WP_Ajax_Upgrader_Skin::$api in /Users/ohm/Local Sites/fictional-university/app/public/wp-admin/includes/class-theme-upgrader.php on line 160
